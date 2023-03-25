@@ -1,0 +1,37 @@
+{
+  "name": "red-contrib-inotify-advance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "node-red inotify node",
+  "dependencies": {
+    "node-inotify": "^1.0.0"
+  },
+  "node-red": {
+    "nodes": {
+      "inotify": "inotify/inotify.js"
+    }
+  },
+  "maintainers": [
+    {
+      "name": "Andres Carmona Gil",
+      "email": "valdepeace@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valdepeace/node-red-contrib-inotify-advance.git"
+  },
+  "keywords": [
+    "node-red",
+    "inotify"
+  ],
+  "author": "Andres Carmona Gil",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/valdepeace/node-red-contrib-inotify-advance/issues"
+  },
+  "homepage": "https://github.com/valdepeace/node-red-contrib-inotify-advance#readme"
+}
